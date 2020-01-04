@@ -1,0 +1,3 @@
+/mnt/c/Users/Jade Wang/Documents/Project/Video-Game-by-Unreal-Engine/TripleX/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Jade Wang/Documents/Project/Video-Game-by-Unreal-Engine/TripleX/cmake-build-debug/CMakeFiles/TripleX.dir
+/mnt/c/Users/Jade Wang/Documents/Project/Video-Game-by-Unreal-Engine/TripleX/cmake-build-debug/CMakeFiles/edit_cache.dir
