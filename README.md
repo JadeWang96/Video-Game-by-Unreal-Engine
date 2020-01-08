@@ -1,5 +1,6 @@
 # Video-Game-by-Unreal-Engine
 
+:blush: :smiley: :relaxed: :laughing: :smile:
 ## Project Description
 This project contains 3 simple video game implementations by Unreal Engine 4.22 Gameplay framwork and C++.
 - Triple X(Warm-up)
@@ -7,11 +8,17 @@ This project contains 3 simple video game implementations by Unreal Engine 4.22 
 - Escape(For real)
 - Battle Tank(For real)
 
-I built the 3D user interface in Unreal Engine software and generated the project framework from software automatically.I don't write all the things by myself :)
+I built the 3D user interface in Unreal Engine software and generated the project framework from software **automatically**.
 
-I wrote the game logic and implemented the specific game with the existing game component/actor template and environment.
+:warning: :warning: :warning:
 
-There many unreal engine special data structures and types were utilized in the projects, which are totally different from general C++ library and focus on the game.
+**I didn't write all the things by myself :)** I wrote the game logic and implemented the specific game with the existing game component/actor template and environment.
+(See the source files for each game)
+
+There many [unreal engine](https://docs.unrealengine.com/en-US/Programming/Introduction/index.html) special data structures and types were utilized in the projects, which are totally different from general C++ library and focus on the game.
+
+It is painful for me to design a 3D game since I feel sick whenever I played a video game.
+:dizzy_face:
 
 ### Bulls and Cows Game
 This is the word version of game.
@@ -40,7 +47,7 @@ Run *.uproject
 ```
 
 ## Acknowledgements
-Boring Winter Break :) Do this for fun.
+:snowman: Boring Winter Break :) Do this for fun.
 
 Michael Bridges
 
