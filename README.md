@@ -15,6 +15,12 @@ I built the 3D user interface in Unreal Engine software(it provides starter cont
 **I didn't write all the things by myself :)** I wrote the game logic and implemented the specific game with the existing game component/actor template and environment.
 (See the source files for each game)
 
+For example, the objects(door, cube, etc...) in the escape room built by the existing models but I wrote the logic if the player touch the pressure
+panel the door will be opened by C++.
+
+For example, the tank world geography is built in unreal engine through user interface tools and the tank model is existing.
+I wrote how the aiming and rotation of tanks works.
+
 :warning: :warning: :warning:
 
 There many [unreal engine](https://docs.unrealengine.com/en-US/Programming/Introduction/index.html) special data structures and types were utilized in the projects, which are totally different from general C++ library and focus on the game.
@@ -45,9 +51,23 @@ Solution: the left corner of room is a pressure pad to open the door.
 ### Battle Tank
 The players control a tank to beat other tanks in this world.
 
+- Forward: W
+- Backward: S
+- Left: A
+- Right: D
+- Aim with Mouse
+
 Boring, but that's it.
 
 ![Image of Tank World](https://github.com/JadeWang96/Video-Game-by-Unreal-Engine/blob/master/BattleTank/Display.png)
+
+####Tank Control System Structure
+```
+Controller.h        Tank.h      TankBarrel.h
+    |           /       |    /      |
+    V          /        V   /       V
+Controller.cpp      Tank.cpp       TankBarrel.cpp
+```
 
 ## Requirement
 - Epic Game
@@ -56,9 +76,16 @@ Boring, but that's it.
 - Blueprint
 
 ## Run
+If you want to modify the files further
 ```
-Run *.uproject 
+Run *.uproject
 ```
+Since the *.exe file is too large to push, the running of program will require installing
+unreal engine(very large).
+
+## To Be Improved
+- Poor direction control in Battle Tank Game
+- Poor game design in Escape Game (Too simple game logic)
 
 ## Acknowledgements
 :snowman: Boring Winter Break :) Do this for fun.
