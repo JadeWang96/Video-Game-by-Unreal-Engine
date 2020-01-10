@@ -61,7 +61,7 @@ Boring, but that's it.
 
 ![Image of Tank World](https://github.com/JadeWang96/Video-Game-by-Unreal-Engine/blob/master/BattleTank/Display.png)
 
-####Tank Control System Structure
+#### Tank Control System Structure
 ```
 Controller.h        Tank.h      TankBarrel.h
     |           /       |    /      |
